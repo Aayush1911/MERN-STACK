@@ -1,0 +1,65 @@
+*{
+    padding: 0;
+}
+.whole{
+    border: 2px solid red;
+    padding: 10px;
+}
+header{
+    width: 94%;
+    height: 50px;
+    border: 1px solid black;
+    text-align: center;
+    padding: 5px 25px;
+}
+nav{
+   width: 94%;
+    height: 40px;
+    border: 1px solid black;
+    margin-top: 5px;
+    padding: 5px 25px;
+    text-align: center;
+}
+ main{
+    width: 40%;
+    height: 60vh;
+    border: 10px solid black;
+    margin-top: 5px;
+    text-align: center;
+    display: inline-block;
+}
+aside{
+    border: 1px solid black;
+    width: 59%;
+    height: 30vh;
+    display: inline-block;
+    text-align: center;
+
+}
+section{
+    border: 1px solid black;
+    width: 59%;
+    height: 28vh;
+    float: right;
+    text-align: center;
+    display: inline-block;
+    margin-top: -170px;
+}
+.aside2{
+width: 94%;
+height: 40px;
+    border: 1px solid black;
+    margin-top: 5px;
+    padding: 5px 25px;
+    text-align: center;
+}
+footer{
+    width: 100%;
+    height: 50px;
+    border: 1px solid black;
+    text-align: center;
+    margin-top: 5px;
+}
+.div{
+    height: 50vh;
+}

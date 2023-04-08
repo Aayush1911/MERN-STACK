@@ -1,0 +1,89 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 80%;
+   margin-inline: auto;
+   display: flex;
+   margin-top: 20px;
+}
+.basic {
+    width: 30%;
+    border: 1px solid rgb(230, 227, 227);
+    border-radius: 5px;
+   
+}
+.pro{
+    width: 30%;
+    margin-left: 10px;
+}
+.premium{
+    width: 30%;
+}
+.bas{
+    background-color: black;
+    color: white;
+    text-align: center;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: 400;
+}
+.bas-content{
+    
+    text-align: center;
+}
+.upper-bas p {
+    margin-block: 10px;
+}
+.big{
+    margin-block: 15px;
+    text-align: center;
+
+}
+.bold{
+    font-weight:500;
+    font-family: Arial;
+    font-size: 1.5em;
+}
+button{
+    background-color: rgba(37, 158, 21,0.70);
+    width: 60px;
+    height: 20px;
+
+}
+.signup{
+    background-color: rgb(219, 219, 219);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-block: 20px;
+    text-align: center;
+}
+.pro h4{
+    background-color: rgb(112, 112, 112);
+
+}
+.pro{
+    width: 30%;
+    border: 1px solid rgb(230, 227, 227);
+    border-radius: 5px;
+}
+.premium h4{
+    background-color: rgb(22, 22, 22);
+}
+.premium{
+    width: 30%;
+    border: 1px solid rgb(230, 227, 227);
+    border-radius: 5px;
+    margin-left: 10px;
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 1em;
+}

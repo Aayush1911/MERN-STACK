@@ -1,0 +1,48 @@
+body{
+    background-color: rgba(183, 241, 241, 0.82);
+}
+.container{
+    width: 80%;
+    margin-inline: auto;
+    background-color: rgb(157, 245, 245);
+    /* position: relative; */
+    
+}
+.image{
+    width: 200px;
+    float: right;
+}
+.image_bottom{
+    width: 200px;
+    float: left;
+}
+.top-para{
+/* clear: right; */
+}
+.bottom-para{
+    clear: right;
+}
+.text-wrapper{
+    width: 200px;
+    height: 200px;
+    border: 2px solid red;
+    overflow:auto;
+}
+.text-box{
+    width: 90%;
+    background-color: rgb(245, 243, 240);
+    padding: 40px;
+    border-radius: 10px;
+    
+}
+.img2{
+    width: 60px;
+    /* position: sticky; */
+    position: absolute;
+    left: 90px;
+    top: 20px;
+    
+}
+.space{
+    height: 100vh;;
+}

@@ -1,0 +1,48 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+nav{
+    background-color: rgb(241, 128, 94);
+    height: 70px;
+    position: fixed;
+    width: 100%;
+}
+ul{
+    list-style: none;
+    padding: 20px;
+}
+li{
+    display: inline;
+    font-size: 1.5rem;
+    padding-inline: 20px;
+}
+.heading{
+    font-size:3rem;
+    /* width: 60%; */
+}
+.main{
+    width: 60%;
+    margin-top: 20vh;
+    margin-left: 10vw;
+    display: inline-block;
+
+}
+.sub-heading{
+    margin-top: 20px;
+}
+button{
+    margin-top: 20px;
+    padding: 20px 60px;
+}
+.img{
+    width: 25%;
+    float: right;
+    margin-top: 20vh;
+    margin-left: 20px;
+}
+.image{
+    height: 100vh;
+
+}

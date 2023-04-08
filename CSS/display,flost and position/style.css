@@ -1,0 +1,20 @@
+.red-border{
+    border: 2px solid red;
+}
+
+p{
+    display: inline-block;
+    margin: 40px;
+    width: 400px;
+}
+.span-text{
+    background-color: aqua;
+}
+a{
+width: 400px;
+display: inline-block;
+}
+img{
+    width: 400px;
+    display: none;
+}
