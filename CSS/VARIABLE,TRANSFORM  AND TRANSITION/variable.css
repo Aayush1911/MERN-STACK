@@ -1,0 +1,23 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+}
+:root{
+    --red-color:rgb(194, 99, 99);
+    --green-color:rgb(145, 221, 145);
+}
+.container{
+    /* width: calc(100% - 80px); */
+    width: max(50%,300px);
+    margin-inline: auto;
+    aspect-ratio: 1/1;
+    border: 2px solid var(--red-color);
+    background-color: var(--green-color);
+}
+.box{
+    border: 2px solid green;
+    width: calc(200px/4);
+    display: inline-block;
+}

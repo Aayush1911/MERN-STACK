@@ -1,0 +1,24 @@
+.box{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    color: white;
+    background-color: aqua;
+    top: 100px;
+    left: 50px;
+    
+}
+.original{
+    background-color: rgb(102, 102, 240);
+    /* transform: scale(0.8,0.4); */
+    /* transform: skew(10deg,10deg); */
+    /* transform: translate(50px,100px); */
+    /* transform: rotate(50deg);
+ */
+ transition: 4s ease-in all;
+}
+.original:hover{
+    /* transform: rotate(30deg); */
+    transform: scale(0.6);
+    background-color: chocolate;
+}

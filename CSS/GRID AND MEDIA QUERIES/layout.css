@@ -1,0 +1,27 @@
+body{
+    display: grid;
+    grid-template-columns: 20% auto 20%;
+    grid-template-areas: 'header header header'
+                          'navigation main advertisement'
+                          'footer footer footer';
+    text-align: center;
+}
+.red-box{
+    border: 2px solid red;
+    /* height: 200px; */
+}
+header{
+    grid-area: header;
+}
+main{
+    grid-area: main;
+}
+.navigation{
+    grid-area: navigation;
+}
+.advertisement{
+    grid-area: advertisement;
+}
+footer{
+    grid-area: footer;
+}

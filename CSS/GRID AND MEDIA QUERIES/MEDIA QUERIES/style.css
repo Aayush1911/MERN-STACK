@@ -1,0 +1,22 @@
+ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+}
+li{
+    padding: 20px;
+    flex-basis: 100%;
+    background-color: aqua;
+    border: 2px solid blue;
+}
+@media only screen and (min-width:600px) {
+    ul{
+        flex-direction: row;
+    }
+}
+@media screen  and (orientation : landscape) and (min-width:1000px) {
+    body{
+        background-color: yellow;
+    }
+}

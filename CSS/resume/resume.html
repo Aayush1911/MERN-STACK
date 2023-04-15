@@ -1,15 +1,191 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Resume</title>
-    <link rel="stylesheet" href="style.css" />
-    <script src="https://kit.fontawesome.com/c1fc3d2826.js" crossorigin="anonymous"></script>
-</head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(183, 253, 253);
+    font-family: Arial, Helvetica, sans-serif; 
+}
+p{
+    font-size: 0.8rem;
+    color: #222222;
+    font-weight:600;
+    padding-left:10px ; 
+    
+}
+h2{
+    font-weight:bolder;
+    color: #222222;
+    margin-block: 10px;
+}
+h3{
+    font-weight:bolder;
+    font-size: medium;
+    color: #000000;
+    font-size: 0.9rem;
+    margin-block: 10px;
+    padding-left: 10px;
+}
 
+.container{
+    width: 100%;
+   display: flex;
+   flex-direction: column;
+   margin-top: 20px;
+   margin-inline: auto;
+   gap: 20px;
+   /* height: 135vh; */  
+}
+.left-column{
+   flex-basis: 100%;
+}
+.right-column{
+    flex-basis: 100%;
+
+    gap: 20px;
+}
+
+img{
+    height: 40vh;
+    width: 100%;
+    position: relative;
+}
+.img-name{
+    position: absolute;
+    top: 17px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+.contact-info ul{
+    list-style: none;
+}
+.icon{
+    display: flex;
+    gap: 10px;
+   justify-content: row;
+   align-items: center;
+   margin-left: 10px;
+}
+i{
+    color: teal;
+}
+.progress-bar{
+    background-color: rgb(172, 170, 170);
+    border-radius: 15px;
+   margin: 10px;
+}
+.progress-bar .progress{
+    width: 90%;
+    background-color: teal;
+    border-radius: 15px;
+    text-align: center;
+    color: white;
+}
+.hobbies ul{
+    list-style: none;
+}
+.languages ul{
+    list-style: none;
+}
+.card{
+    background-color: white;
+    box-shadow: 4px 4px 4px  rgb(172, 170, 170);
+    
+}
+.icon ul{
+    list-style: none;
+}
+.badge{
+    background-color: teal;
+    color: white;
+    border-radius: 2px;
+    width: 65px;
+}
+
+
+hr{
+    border: 0.5px solid #bbbaba;
+    margin-block: 10px;
+}
+.contact-info p {
+    margin-block: 10px;
+}
+
+.hobies{
+    margin-block: 20px;
+    margin-bottom: 20px;
+}
+.languages{
+    margin-block: 20px;
+}
+ul{
+    margin-block: 10px;
+}
+.skills card{
+    /* height: 50vh; */
+    background-color: black;
+}
+.right-description p{
+    margin-block: 5px;
+    font-size: 100;
+}
+ .right-description icon{
+    padding-left: 15px;
+ }
+.name{
+    text-align: center;
+    font-weight: bolder;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.space{
+    height: 20vh;
+}
+.skills {
+    /* padding-left: 20px; */
+    padding-block: 10px;
+    margin-top: 10px;
+}
+.sk {
+    padding-left: 20px;
+}
+.project{
+   margin-top: 10px;
+   height: 50vh;
+   align-items: center;
+   justify-content: center;
+}
+a:link {
+    text-decoration: none;
+  }
+  li{
+    font-family:    'Times New Roman', serif;
+    font-weight: 550;
+    font-size: 1.1em;
+  }
+  @media only screen and (min-width:641px) {
+   .container{
+    margin-inline: auto;
+    width: 80%;
+    flex-direction: row;
+   }
+   .left-column{
+    flex-basis: 30%;
+   }
+   .right-column{
+  flex-basis: 70%;
+   }
+}
+    </style>
+</head>
 <body>
     <div class="container">
         <div class="left-column card">
@@ -197,5 +373,4 @@
     </div>
         <div class="space"></div>
 </body>
-
 </html>
